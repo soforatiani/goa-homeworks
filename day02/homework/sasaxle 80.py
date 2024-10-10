@@ -4,7 +4,7 @@ from turtle import*
 width(2)
 color ("purple")
 forward(-500)
-
+begin_fill()
 
 left(90)
 forward(150)
@@ -242,7 +242,7 @@ forward(70)
 right(70)
 right(70)
 forward(70)
-
+end_fill()
 
 
 
