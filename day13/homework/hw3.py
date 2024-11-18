@@ -1,0 +1,5 @@
+name=input("enter name")
+surname=input("enter surname")
+age=input("enter your age")
+age2=str(age)
+print(name+surname+age2)
