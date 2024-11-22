@@ -1,0 +1,7 @@
+print(89<3 and 3>3)
+print(3<4 and 5<6)
+print(5==5 and 6==6)
+num1=input("enter number")
+print(num1==20 and num2==560)
+name=input("enter your name")
+print(name=="goa" or name2=="goa1")
