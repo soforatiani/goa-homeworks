@@ -1,0 +1,31 @@
+.background_image{
+	position: relative;
+	text-align: center;
+	color: black;
+
+
+}
+
+.background_image img{
+	width: 100%;
+	border-radius: 20px;
+}
+.button{
+	background-color: grey;
+	border-radius: 10px;
+	padding: 15px 25px;
+	width:250px;
+	text-align: center;
+
+}
+.information{
+	display:flex;
+	justify-content: center;
+	gap: 50px;
+}
+.background_image h1{
+	position:absolute;
+	top: 30%;
+	left:50%;
+
+}
