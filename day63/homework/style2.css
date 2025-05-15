@@ -1,0 +1,16 @@
+.name{ 
+	
+	color:orange;
+	text-decoration: underline yellow;
+	
+}
+
+.surname{
+	color:pink;
+	text-decoration: line-through purple;
+
+}
+.is{
+	color:yellowgreen;
+	text-decoration: overline green;
+}

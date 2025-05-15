@@ -1,0 +1,34 @@
+.first{
+	position: absolute;
+	top:20px;
+ 
+	right: 40px;
+	text-decoration: underline dotted green;
+}
+.second{
+	position: absolute;
+	top:60px;
+	left:100px;
+	text-decoration: line-through;
+}
+.third{
+	text-decoration: overline double red;
+}
+.fourth{
+	text-decoration: underline;
+}
+.sixth{
+	text-decoration: line-through dotted green;
+}
+.seventh{
+	text-decoration: overline;
+
+}
+.eigth{
+	color: green;
+	text-decoration: overline greenyellow;
+}
+.ten{
+	color:grey;
+	text-decoration:overline grey ;
+}

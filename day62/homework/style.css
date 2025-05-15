@@ -1,0 +1,34 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+}
+
+.sun {
+	animation-name: bzriali;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+@keyframes bzriali {
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+.orbita{
+	border:1px solid grey;
+	border-radius: 50%;
+	padding:75px;
+	position:relative;
+}

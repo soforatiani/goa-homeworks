@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .solar-system {
+	position: relative;
+	width: 600px;
+	height: 600px;
+  }
+  
+  .sun {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:300px;
+	height: 300px;
+	margin-top: -50px;
+	margin-left: -50px;
+	border-radius: 50%;
+	
+  }
+ 
+  
+  /* Shared orbit styles */
+  .orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-origin: center;
+	animation-timing-function: linear;
+  }
+  
+  .orbit img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+  }
+  
+  /* Mercury */
+  .orbit.mercury {
+	width: 250pxpx;
+	height: 250pxpx;
+	margin-left: -60px;
+	margin-top: -60px;
+	animation: rotate 4s infinite linear;
+  }
+  .orbit.mercury img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  /* Venus */
+  .orbit.venus {
+	width: 180px;
+	height: 180px;
+	margin-left: -90px;
+	margin-top: -90px;
+	animation: rotate 7s infinite linear;
+  }
+  .orbit.venus img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  /* Earth */
+  .orbit.earth {
+	width: 500px;
+	height: 500px;
+	margin-left: -125px;
+	margin-top: -125px;
+	animation: rotate 10s infinite linear;
+  }
+  .orbit.earth img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  /* Mars */
+  .orbit.mars {
+	width: 320px;
+	height: 320px;
+	margin-left: -160px;
+	margin-top: -160px;
+	animation: rotate 15s infinite linear;
+  }
+  .orbit.mars img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  @keyframes rotate {
+	0% {
+	  transform: rotate(0deg) translateX(50%) rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg) translateX(50%) rotate(-360deg);
+	}
+  }
+  
