@@ -1,0 +1,18 @@
+#container {
+	width:1000vh;
+	height:1000vh;
+	background-color: blueviolet;
+	
+
+
+}
+
+.child{
+	width:200px;
+	height:100px;
+	top:300px;
+	background-color: pink;
+	border:2px salmon;
+}
+	
+	
