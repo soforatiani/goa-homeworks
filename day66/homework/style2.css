@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.product-table {
+  border-collapse: collapse;
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.product-table th,
+.product-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table thead {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.product-table tbody tr:last-child td {
+  border-bottom: none;
+}

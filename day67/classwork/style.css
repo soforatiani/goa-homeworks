@@ -1,0 +1,19 @@
+.table{
+	border-collapse: collapse;
+}
+
+.first{
+	background-color: aquamarine;
+	color: white;
+}
+th, td {
+
+
+  border: 1px solid #008060;
+  padding: 12px;
+  text-align: left;}
+
+
+  .tr{ 
+	background-color: aquamarine;
+  }
