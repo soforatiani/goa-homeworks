@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+body{
+	width:100%;
+	min-height: 100vh;
+	align-items: center;
+	background-color:purple;
+	
+	justify-content: center;
+	display:flex;
+
+}
+.photo{
+	border-radius: 20%;
+	
+}
+
+.header{ 
+	text-align: center;
+	 font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  justify-content: center;
+  text-decoration: #fff;
+
+}
+
+.clock{
+
+
+	position: absolute;
+  top: 6px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.delivery{
+	border:2px solid black;
+	height: 25px;
+	width: 60px;
+	border-radius: 10px;
+	background-color:#fff;
+	
+color:purple ;font-family: "Alfa Slab One", serif;
+font-size: 12px;
+}
+
+
+.self{
+	border:2px solid black;
+	height: 25px;
+	width: 90px;
+	border-radius: 10px;
+	background-color:#fff;
+	color:purple ;font-family: "Alfa Slab One", serif;
+	font-size: 12px;
+
+
+	
+}
+.shops{
+		border:2px solid black;
+	height: 25px;
+	width: 40px;
+	border-radius: 10px;
+	background-color:#fff;
+	font-size: 12px;
+	color:purple ;font-family: "Alfa Slab One", serif;
+
+
+
+
+}
+
+.menu{
+	position:absolute;
+	top:145px;
+	left:74%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width:60%;
+	text-decoration: underline;
+
+}
+	
+	
+
+.person{
+	border:2px solid plum;
+	position:absolute;
+	top:103px;
+	left:46%;
+	display:flex;
+	width:30px;
+	height:30px;
+	border-radius: 70%;
+	transform: translateX(-50%);
+	
+}
+
+.cart{
+		position:absolute;
+	top:103px;
+	left:56%;
+	display:flex;
+	width:30px;
+	height:30px;
+	border-radius: 70%;
+	transform: translateX(-50%);
+
+border:2px solid plum;
+}
+
+.burger{
+
+	width:10% ;
+	height: 150px;;
+
+	position:absolute;
+	top: 25%;
+	border-radius: 20%;
+	left: 46%;
+	border: 2px solid rgba(0, 0, 0, 0.025);
+
+
+}
+
+
+
+
+.pizza{
+	width:10% ;
+	height: 150px;;
+
+	position:absolute;
+	top: 49%;
+	border-radius: 20%;
+	left: 46%;
+	border: 2px solid rgba(0, 0, 0, 0);
+
+}
+
+
+
+
+.container {
+	position:absolute;
+  padding: 16px;
+  width: 400px;
+  height:auto;
+  background-color:purple;
+  top:30%;
+  left: 75%;
+  border-radius: 30px;
+color:#fff;
+border:2px solid black;
+
+
+}
+
+hr {
+
+
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.registr{
+
+
+  background-color: #04aa6ddb;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.moving{
+	position:absolute;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+
+ top: 1%;
+  left: 200px; 
+  transform: translateY(-50%);
+   animation: moveRight 5s linear infinite;
+  
+
+}
+@keyframes moveRight {
+
+
+  0% {
+    left: 200px;
+  }
+  100% {
+    left: 100%;
+  }
+}
